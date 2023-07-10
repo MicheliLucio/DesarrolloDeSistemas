@@ -1,0 +1,357 @@
+body{
+    
+    background-color: #C19AB7;
+
+}
+
+#homepage {
+
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 0.7fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    }
+    
+#barra-superior{ 
+    grid-area: 1 / 1 / 2 / 3; 
+    position: fixed;
+    grid-auto-flow: column;
+    width: 1920px;
+    height: 70px;
+    background: #7E4E72;
+    margin-left: -10px;
+    margin-top: -10px;
+    z-index: 999;
+    box-shadow: 1px #525252;
+    -webkit-box-shadow: 1px 6px 5px -3px rgba(71,68,71,1);
+    -moz-box-shadow: 1px 6px 5px -3px rgba(71,68,71,1);
+    box-shadow: 1px 6px 5px -3px rgba(71,68,71,1);
+
+}
+#barra-lateral { 
+    grid-area: 1 / 1 / 4 / 2;
+    position: fixed;
+    width: 120px;
+    height: 2540px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+    background: #593650;
+    border-radius: 0px 40px 0px 0px;
+    z-index: 999;
+
+}
+
+#noticias {
+
+    position: absolute;
+    width: 1350px;
+    height: 611px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.55fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+
+}
+
+#imagenNoticia {
+
+    border-radius: 10px 10px 10px 10px;
+    grid-area: 1 / 1 / 3 / 2;
+    background-color:rgb(216, 192, 192);
+    background-size: auto;
+    width: 1350px;
+    height: 611px;
+
+}
+
+#datosNoticia {
+
+    display: grid;
+    grid-template-columns: 0.01fr repeat(2, 1fr) 0.01fr;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    margin-top: 25px;
+
+    position: absolute;
+    width: 1350px;
+    height: 225px;
+
+    background: #E6E6E6;
+    border-radius: 35px 35px 10px 10px;
+    grid-area: 2 / 1 / 3 / 2;
+    background-color:#E6E6E6;
+}
+
+#perfilNoticia {
+    margin-top: 30px;
+    position: relative;
+    height: 150px;
+    grid-area: 2 / 2 / 3 / 3;
+    background: #D2D2D2;
+    border-radius: 15px;
+}
+
+#descNoticia {
+    margin-top: 30px;
+    position: relative;
+    height: 150px;
+    grid-area: 2 / 3 / 3 / 4;
+    background: #D2D2D2;
+    border-radius: 15px;
+    overflow: hidden;
+    color: #767272;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.72px;
+
+}
+
+#barraBusqueda {
+
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 15px;
+    width: 1350px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+
+}
+#textocaja{
+    position:absolute;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 50px;
+    width: 900px;
+    
+    
+}
+#busquedatexto{
+    background-color: transparent;
+    border-color:transparent;
+    height: 27px;
+    width: 1250px;
+    margin-top: -5px;
+
+}
+#lupita{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+#logoMirror { 
+    position: absolute;
+    right: 10px;
+    padding-top: 15px;
+    grid-area: 1 / 5 / 2 / 6; 
+    margin-right: 20px;
+
+}
+#foto-usuario{
+    margin-top:10px;
+    margin-left: 5px;
+    height: 109px;
+    width: 109px;
+    background-color: #30011E;
+    border-radius: 150px;
+    border-color: #30011E;
+    border-width: 10px;
+    
+}
+#linea-divisoria{
+    margin-left: 11px;
+    width: 100px;
+}
+#juego-logo{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#herramienta-logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#nube-logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#interrogacion-logo{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#ppNoticia{
+    border-radius: 150px;
+    box-shadow: 0px 0px 50px 25px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+}
+#tituloNoticia{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -130px;
+    font-family: "Raleway",sans-serif;
+    color: #292929;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#usuarioNoticia{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -85px;
+    font-family: "Raleway",sans-serif;
+    color: #525252;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#pesoDelJuego{
+    margin-left: 550px;
+    margin-top: -25px;
+    font-family: "Raleway",sans-serif;
+    color: #333;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#tituloDeJuego1{
+    width: max-content;
+    position: relative;
+    margin-top: 800px;
+    margin-left: 250px;
+}
+#contenedorJuego{
+    position: absolute;
+    height: 300px;
+    width: 486px;
+    background-color: #E6E6E6;
+    margin-top: 900px;
+    margin-left: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#imagen-juego{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 205px;
+    width: 445px;
+}
+#tituloJuego{
+    color: #292929;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#tituloDeJuego2{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 250px;
+}
+#contenedorJuego2{
+    position: absolute;
+    height: 300px;
+    width: 486px;
+    background-color: #E6E6E6;
+    margin-top: 1400px;
+    margin-left: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#imagen-juego2{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 205px;
+    width: 445px;
+}
+#tituloJuego2{
+    color: #292929;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#tituloDeJuego3{
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 250px;
+}
+#contenedorJuego3{
+    position: absolute;
+    height: 300px;
+    width: 486px;
+    background-color: #E6E6E6;
+    margin-top: 1900px;
+    margin-left: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#imagen-juego3{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 205px;
+    width: 445px;
+}
+#tituloJuego3{
+    color: #292929;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+#contenedorJuego:hover{
+    border: solid #30011E;
+}
+#contenedorJuego2:hover{
+    border: solid #30011E;
+}
+#contenedorJuego3:hover{
+    border: solid #30011E;
+}
+#boton-salir{
+    position:relative;
+    background-color: #C19AB7;
+    font-family: sans-serif;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: solid black; 
+    text-decoration: none;
+}

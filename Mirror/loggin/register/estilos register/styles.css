@@ -1,0 +1,138 @@
+body{
+    background: #B78EAC;
+}
+#caja-loggin{
+    width: 560px;
+    height: 750px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #7E4E72;
+    box-shadow: 0px 0px 7px 2px rgba(48, 1, 30, 0.25) inset, 0px 0px 20px 20px rgba(255, 247, 235, 0.25);
+    
+    margin-left: 700px;
+    margin-top: 100px;
+
+}
+#logo{
+    width: 400px;
+    height: 65px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#registrate{
+    color: rgba(255, 247, 235, 0.75);
+    font-size: 24px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 225px;
+}
+#mail{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 450px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #652E50;
+    box-shadow: 2px 5px 2px 0px rgba(48, 1, 30, 0.35) inset;
+    color: rgba(255, 247, 235, 0.25);
+    font-size: 16px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#nickname{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 450px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #652E50;
+    box-shadow: 2px 5px 2px 0px rgba(48, 1, 30, 0.35) inset;
+    color: rgba(255, 247, 235, 0.25);
+    font-size: 16px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#contraseña{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 450px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #652E50;
+    box-shadow: 2px 5px 2px 0px rgba(48, 1, 30, 0.35) inset;
+    color: rgba(255, 247, 235, 0.25);
+    font-size: 16px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#confirContraseña{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 450px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #652E50;
+    box-shadow: 2px 5px 2px 0px rgba(48, 1, 30, 0.35) inset;
+    color: rgba(255, 247, 235, 0.25);
+    font-size: 16px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#boton-register{
+    position:absolute;
+    background-color: transparent;
+    border: transparent;
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #652E50;
+    box-shadow: 2px 5px 2px 0px rgba(48, 1, 30, 0.35) inset;
+    color: rgba(255, 247, 235, 0.75);
+    font-size: 24px;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 170px;
+    margin-left: -310px;
+}
+.ok {
+	text-align: center;
+	width: 100%;
+    height: 35px;
+	background-color: #1e6;
+	color: #fff;
+    font-family: "Raleway",sans-serif;
+}
+.bad {
+	text-align: center;
+	width: 100%;
+    height: 35px;
+	background-color: #a22;
+	color: #fff;
+    font-family: "Raleway",sans-serif;
+}
